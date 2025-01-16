@@ -7,160 +7,161 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/Users/kumar/Desktop/VERILOG HDL/8_3_encoder
+Z0 dC:/Users/kumar/Desktop/VERILOG HDL/8_3_encoder
 T_opt
 !s110 1736961810
 V3AUK?O3H;Ybj23UmoG:Ez0
 04 6 4 work wallac fast 0
 =1-1091d1f00082-6787ef12-df-6234
 o-quiet -auto_acc_if_foreign -work work
-Z0 tCvgOpt 0
+Z1 tCvgOpt 0
 n@_opt
 OL;O;10.6d;65
+R0
 vfull
-Z1 !s110 1736961774
+Z2 !s110 1737017696
 !i10b 1
 !s100 kYUb7XgK[b8Ym`@Z];BG=0
 IC99zF9JRY:RfQ>R6^zU5m3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier
-Z4 w1736961769
-Z5 8C:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier/wallac.v
-Z6 FC:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier/wallac.v
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dC:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier
+Z5 w1736963523
+Z6 8C:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier/wallac.v
+Z7 FC:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier/wallac.v
 L0 114
-Z7 OL;L;10.6d;65
+Z8 OL;L;10.6d;65
 r1
 !s85 0
 31
-Z8 !s108 1736961774.000000
-Z9 !s107 C:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier/wallac.v|
-Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier/wallac.v|
+Z9 !s108 1737017696.000000
+Z10 !s107 C:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier/wallac.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier/wallac.v|
 !i113 0
-Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
 vfull_adder
-Z12 !s110 1736951586
+Z13 !s110 1736951586
 !i10b 1
 !s100 R:CB2nTUz16=;Z;R>=L@41
 IoeZcXB;5W>fSED6b6?^mb3
-R2
 R3
-Z13 w1736951576
-R5
+R4
+Z14 w1736951576
 R6
-L0 111
 R7
+L0 111
+R8
 r1
 !s85 0
 31
-Z14 !s108 1736951586.000000
-R9
+Z15 !s108 1736951586.000000
 R10
-!i113 0
 R11
-R0
-vhalf
+!i113 0
+R12
 R1
+vhalf
+R2
 !i10b 1
 !s100 zj@Hh`hEQbW8ca4i8MhS<1
 IkS_OQP^RMZ^8>DP3]^b=Q1
-R2
 R3
 R4
 R5
 R6
-L0 108
 R7
+L0 108
+R8
 r1
 !s85 0
 31
-R8
 R9
 R10
-!i113 0
 R11
-R0
-vhalf_adder
+!i113 0
 R12
+R1
+vhalf_adder
+R13
 !i10b 1
 !s100 9W@[2b<08hEC21;6990Wc3
 I=H^dkXbk_7ZnRP6A1WZcF2
-R2
 R3
-R13
-R5
+R4
+R14
 R6
-L0 102
 R7
+L0 102
+R8
 r1
 !s85 0
 31
-R14
-R9
+R15
 R10
-!i113 0
 R11
-R0
-vripple_carry_adder
+!i113 0
 R12
+R1
+vripple_carry_adder
+R13
 !i10b 1
 !s100 J6anV_Q]IlQ4[GFamH]Wf0
 I^o1QSKDBCZ@JX`^NcCVTn1
-R2
 R3
-R13
-R5
+R4
+R14
 R6
-L0 94
 R7
+L0 94
+R8
 r1
 !s85 0
 31
-R14
-R9
+R15
 R10
-!i113 0
 R11
-R0
-vwallac
+!i113 0
+R12
 R1
+vwallac
+R2
 !i10b 1
 !s100 mLTQi<GD<KTmPMN<fhl601
 ICO@Dzk3G]i9HZHYZXjikc2
-R2
 R3
 R4
 R5
 R6
-L0 1
 R7
+L0 1
+R8
 r1
 !s85 0
 31
-R8
 R9
 R10
-!i113 0
 R11
-R0
+!i113 0
+R12
+R1
 vwallace_tree_multiplier
 !s110 1736951027
 !i10b 1
 !s100 =n1B7Kee]5O_UY@0Q;50E3
 I@:JDYkd4inD=2FPN?5BnM1
-R2
 R3
+R4
 w1736951020
-R5
 R6
-L0 1
 R7
+L0 1
+R8
 r1
 !s85 0
 31
 !s108 1736951027.000000
-R9
 R10
-!i113 0
 R11
-R0
+!i113 0
+R12
+R1

@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier
+T_opt
+!s110 1737022223
+VG]R8n=`Emb`_hOd>h;<<]3
+04 5 4 work dadda fast 0
+=1-1091d1f00082-6788db0f-21d-8e34
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+vdadda
+Z1 !s110 1737022212
+!i10b 1
+!s100 6[3nVm^[L=DP5Cd?6<23z0
+I>@eMK2f@5gP6`?9h<ICg63
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/kumar/Desktop/VERILOG HDL/8_8_dadda_multiplier
+Z4 w1737022202
+Z5 8C:/Users/kumar/Desktop/VERILOG HDL/8_8_dadda_multiplier/dadda.v
+Z6 FC:/Users/kumar/Desktop/VERILOG HDL/8_8_dadda_multiplier/dadda.v
+L0 1
+Z7 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z8 !s108 1737022212.000000
+Z9 !s107 C:/Users/kumar/Desktop/VERILOG HDL/8_8_dadda_multiplier/dadda.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/kumar/Desktop/VERILOG HDL/8_8_dadda_multiplier/dadda.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vfull
+R1
+!i10b 1
+!s100 A8CU1n64P;S]L`JbnL=IN3
+Ii?EklMf[a<`Hf1[V0g8BM3
+R2
+R3
+R4
+R5
+R6
+L0 103
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0
+vhalf
+R1
+!i10b 1
+!s100 GQ64GVL<ABL5KNSLc;`WM1
+Il1>[zf`jiC6bMgFoZU@043
+R2
+R3
+R4
+R5
+R6
+L0 96
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0

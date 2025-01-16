@@ -1,1 +1,10 @@
+{C:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier/wallac.v} {1 {vlog -work work -vopt -stats=none {C:/Users/kumar/Desktop/VERILOG HDL/8_8_wallac_multiplier/wallac.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module wallac
+-- Compiling module half
+-- Compiling module full
 
+Top level modules:
+	wallac
+
+} {} {}}

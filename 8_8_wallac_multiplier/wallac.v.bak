@@ -1,9 +1,9 @@
 module wallac(input [7:0]a,b, output [15:0]x);
 
-wire [63:0]p;
-wire [53:1]s;
-wire [53:1]c;
-wire [15:0]z;
+wire [63:0]p; // partial product
+wire [53:1]s; //  sum output
+wire [53:1]c;  // carry output
+wire [15:0]z;  // carry output for last reduction (ripple carry adder)
 
 //generating partial product
 
