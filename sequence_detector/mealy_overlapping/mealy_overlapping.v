@@ -1,0 +1,51 @@
+// mealy overlapping machine for sequence 1001
+module mealy_overlapping(rst, clk,seq,dout);
+input rst, clk, seq;
+output reg dout;
+parameter A=2'b00, B=2'b01, C=2'b10, D=2'b11;
+reg [1:0]current_state, next_state;
+always @(posedge clk)begin
+if(rst)
+  current_state<=A;
+else
+  current_state<=next_state;
+end
+always @(*)begin
+dout=1'b0;
+case(current_state)
+A: begin 
+  if(seq)begin
+    next_state=B;
+    dout=1'b0;
+  end else begin
+    next_state=A;
+    dout=1'b0;
+  end end
+B: begin 
+  if(seq)begin
+    next_state=B;
+    dout=1'b0;
+  end else begin
+    next_state=C;
+    dout=1'b0;
+  end end
+C: begin 
+  if(seq)begin
+    next_state=B;
+    dout=1'b0;
+  end else begin
+    next_state=D;
+    dout=1'b0;
+  end end
+D: begin 
+  if(seq)begin
+    next_state=B;
+    dout=1'b1;
+  end else begin
+    next_state=A;
+    dout=1'b0;
+  end end
+default: next_state=A;
+endcase
+end
+endmodule

@@ -1,0 +1,81 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kumar/Desktop/VERILOG HDL/traffic light controller
+T_opt
+!s110 1755967720
+VafIUY:IVgI9gG7;zKe1o:2
+Z1 04 17 4 work mealy_overlapping fast 0
+=1-1091d1f00082-68a9f0e8-12-dc0
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.6d;65
+R0
+T_opt1
+!s110 1755969130
+VVLAHf_zV]iTSFhll<Y;4=1
+Z5 04 16 4 work mealy_overlap_tb fast 0
+=1-1091d1f00082-68a9f66a-2d5-36fc
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1755968596
+V^R86?U97g55b6oU5@4[@a2
+R5
+R1
+=1-1091d1f00082-68a9f454-17b-4b9c
+R2
+R3
+n@_opt2
+R4
+R0
+vmealy_overlap_tb
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 bRAD=W8FM2M2^WeTWloO<1
+I_z_eLWK?QjA3^]SObiJo_0
+Z7 dC:/Users/kumar/Desktop/VERILOG HDL/sequence_detector/mealy_overlapping
+w1755970658
+8C:/Users/kumar/Desktop/VERILOG HDL/sequence_detector/mealy_overlapping/mealy_overlap_tb.v
+FC:/Users/kumar/Desktop/VERILOG HDL/sequence_detector/mealy_overlapping/mealy_overlap_tb.v
+L0 1
+Z8 OL;L;10.6d;65
+Z9 !s108 1755970667.000000
+!s107 C:/Users/kumar/Desktop/VERILOG HDL/sequence_detector/mealy_overlapping/mealy_overlap_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/kumar/Desktop/VERILOG HDL/sequence_detector/mealy_overlapping/mealy_overlap_tb.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vmealy_overlapping
+R6
+r1
+!s85 0
+31
+!i10b 1
+!s100 XEeG9LB@PS>nW8WEW:eiC0
+IhCd:ZY8X4`Mzl2m_:M6_f3
+R7
+w1755967697
+8C:/Users/kumar/Desktop/VERILOG HDL/sequence_detector/mealy_overlapping/mealy_overlapping.v
+FC:/Users/kumar/Desktop/VERILOG HDL/sequence_detector/mealy_overlapping/mealy_overlapping.v
+L0 2
+R8
+R9
+!s107 C:/Users/kumar/Desktop/VERILOG HDL/sequence_detector/mealy_overlapping/mealy_overlapping.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/kumar/Desktop/VERILOG HDL/sequence_detector/mealy_overlapping/mealy_overlapping.v|
+!i113 0
+R10
+R3
