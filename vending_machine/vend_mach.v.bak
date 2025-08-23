@@ -1,0 +1,81 @@
+module vend_mach(
+input rst, clk,
+input [4:0]seq_in,
+output reg [1:0]prod, ////p1=20 rupee product, p0=10 rupee product
+output reg [4:0]change
+);
+reg [1:0]cs,ns;
+parameter A=2'b00,B=2'b01,C=2'b10,D=2'b11;
+parameter p=5'b00101,q=5'b01010,r=5'b10100,s=5'b00000;
+always @(posedge clk or posedge rst)
+begin
+if(rst)
+cs<=A;
+else
+cs<=ns;
+end
+always @(*)
+begin
+ns=cs;
+prod=2'b00;
+change=s;
+case(cs)
+A: begin
+if(seq_in==p)begin
+   ns=B;
+   end
+   else if(seq_in==q)begin
+   ns=C;
+   prod=2'b10;
+   end
+   else if(seq_in==r)begin
+   ns=D;
+   prod=2'b01;
+   end
+end
+
+B: begin
+if(seq_in==p)begin
+   ns=C;
+   prod=2'b10;
+   end
+   else if(seq_in==q)begin
+   ns=C;
+   prod=2'b10;
+   change=p; end
+   else if(seq_in==r)begin
+   ns=D;
+   prod=2'b01;
+   change=p; end
+end
+
+C: begin
+if(seq_in==p)begin
+   ns=A;
+   change=p; end
+   else if(seq_in==q)begin
+   ns=D;
+   prod=2'b01; end
+   else if(seq_in==r) begin
+   ns=D;
+   prod=2'b01;
+   change=q; 
+   end
+end
+
+D: begin
+if(seq_in==p)begin
+   ns=A;
+   change=p; end
+   else if(seq_in==q) begin
+   ns=C;
+   prod=2'b10;
+   end
+   else if(seq_in==r)begin
+   ns=D;
+   prod=2'b01;
+   end
+end
+endcase
+end
+endmodule
