@@ -1,0 +1,50 @@
+Digital Audio Player - Playing digital Audio from Block ROM and Audio Buffer
+
+Problem Statement:
+
+Design an audio playback system capable of playing .wav files through the basic 
+audio output circuitry available on the Blackboard platform. Initially, a small audio file will be 
+preloaded into a Block RAM, and your playback circuit will sequentially read audio samples from 
+memory and transfer them to a PWM-based digital-to-analogue converter (DAC) for playback.
+
+Theory:
+
+A WAV file (short for Waveform Audio File Format) is a common digital audio format used to store 
+uncompressed, high-quality audio on computers. Wav files typically contain raw audio data encoded 
+using PCM (Pulse Code Modulation), which preserves the full detail of the original sound. A standard 
+wav file uses 16-bit samples at a 44.1 kHz sampling rate, the same quality as audio CDs. A 16-bit sample 
+can represent 65,536 discrete amplitude levels, providing a dynamic range of approximately 96 dB
+sufficient for high-fidelity playback.
+
+In this project, you are provided with a wav file that contains 8-bit audio samples, offering 48 dB of 
+dynamic range. This level of fidelity is sufficient for clearly recognizing speech and most common 
+musical content, though it may not fully satisfy audiophile standards. You will preload the wav file’s 
+audio data into a Block RAM, and then retrieve one data point every 22.67 microseconds (corresponding 
+to a 44.1 kHz sampling rate) to feed into your audio playback system. This initial Block RAM 
+implementation simplifies audio data retrieval, allowing you to focus on designing and testing the 
+playback circuit. By storing the audio locally in Block RAM, your playback circuit can access the data 
+efficiently and in real time, without needing to interface with external memory or data ports during 
+playback
+
+Objectives:
+
+1. Design a PWM module that can control:
+• PWM frequency 
+• Duty cycle 
+• Enable/disable output
+
+2. Create a ROM using Block memory generator IP and initialise it with the given memory file
+
+3. Design a system that interfaces an 8-bit PWM block with a ROM containing 8-bit PCM samples
+
+4. Your system will need to calculate addresses and feed the PWM system with samples from the 
+ROM at the desired sample rate(44.1KHz)
+
+5. Send the output of the modulator to the Headphone Jack.
+
+Deliverables: 
+
+• Verilog/VHDL code implementing stopwatch logic. 
+• Testbench (for simulation). 
+• Demonstration on the Black board. 
+• Use the speaker available to play the audi
